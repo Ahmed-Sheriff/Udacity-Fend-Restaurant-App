@@ -1,0 +1,136 @@
+/* from 0 to 245px*/
+
+@media screen and (max-width:245px) {
+	
+	nav h1 a {
+	color: #fff;
+    font-size: 10pt;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 80px
+	}
+
+	.filter-options h2{
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 2;
+    margin: 0px 2px;
+	}
+
+	.filter-options select{
+
+	background-color: white;
+    border: 1px solid #fff;
+    font-family: Arial,sans-serif;
+    height: 26px;
+    letter-spacing: 0;
+    margin: 10px 0 10px 0;
+    padding: 0 10px;
+    max-width: 100%;
+   
+	}
+
+	#restaurants-list li{
+	background-color: #fff;
+    border: 2px solid #ccc;
+    font-family: Arial,sans-serif;
+    margin: 6px 0;
+	min-height: auto;
+	padding: 0 14px 13px;
+    text-align: center;
+    width: 270px;
+	}
+
+	#restaurants-list li h1{
+		font-size: 11pt;
+	}
+
+	#restaurants-list li a{
+
+	padding: 6px 22px 6px;
+	font-size: 7pt;
+	}
+}
+
+/*From 245px to 393px*/
+
+@media screen and (min-width:245px) and (max-width:393px){
+
+	#restaurants-list li{
+	min-height: auto;
+    padding: 0 14px 13px;
+	}
+
+}
+
+/* ====================== Restaurant Details ====================== */
+
+@media screen and (max-width: 770px) {
+	
+	.inside nav h1 a {
+	color: #fff;
+    font-size: 12pt;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+	}
+
+	.inside header{
+	 position: static;	
+	}
+
+	#breadcrumb {
+	 position: static;
+	 width: 100%;
+	 max-width: 100%;
+	 padding: 16px 0;
+	 text-indent: 20px;
+	}
+
+	.inside #map-container {
+	  background: blue none repeat  ;
+	  height: 450px;
+	  position: static;
+	  width: 100%;
+	}
+
+	.inside #footer {
+	  bottom: 0;
+	  position: absolute;
+	  max-width: 100%;
+	  width: 100%;
+	  padding: 17px 0;
+	}
+	
+	.inside #restaurant-container, #reviews-container {
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #fff;
+    padding: 37px 11px 30px;
+    width: 100%;
+    text-align: center;
+	}
+
+
+	.inside #restaurant-cuisine {
+	  background-color: #333;
+	  color: #ddd;
+	  font-size: 12pt;
+	  font-weight: 300;
+	  letter-spacing: 10px;
+	  margin:auto;
+	  padding: 2px 0;
+	  text-align: center;
+	  text-transform: uppercase;
+	  width: 90%;
+	}
+
+	#reviews-list li {
+		margin: 10px auto;
+	}
+
+	#restaurant-name {
+		font-size: 17pt;
+	}
+
+}
