@@ -8,7 +8,8 @@ You can easly choose your restaurant by doing a filtering option either with loc
 
 ## Project installation 
 
-1- Download the repo 
+1- Download the repo
+
 2- Run the server
 
 ## Project features 
